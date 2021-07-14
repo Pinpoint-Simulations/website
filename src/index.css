@@ -14,3 +14,7 @@ code {
 /* html{
   overflow: hidden;
 } */
+
+html{
+  scroll-behavior: scroll
+}
