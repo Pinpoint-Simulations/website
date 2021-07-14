@@ -83,7 +83,7 @@ body, html{
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
+    width: 700px;
     background-color: #C2272F;
     box-shadow: 5px 5px 8px black;
     /* border-radius: 1em; */
@@ -93,7 +93,7 @@ body, html{
     
 }
 .latest-update img{
-    width: 75%;
+    width: 100%;
     
     border-style: solid;
     border-width: 4px;

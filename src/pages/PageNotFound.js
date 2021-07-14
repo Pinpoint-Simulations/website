@@ -3,16 +3,17 @@ import Navbar from '../components/utils/Navbar'
 function PageNotFound(){
     const styles = {
         
-        backgroundColor: "lightgrey", 
+        backgroundColor: "black", 
         fontSize: "4rem",
-        color: "red",
-        
+        color: "lightgrey",
+        fontFamily: "brandon",
+
         textAlign: "center"
     }
     const big = {
-        backgroundColor: "lightgrey", 
+        backgroundColor: "black", 
         fontSize: "4rem",
-        color: "white",
+        color: "gray",
         position: "relative",
         
         textAlign: "center",
@@ -27,7 +28,7 @@ function PageNotFound(){
         <div >
             <Navbar />
             <div className="big" style={big}>
-            <div style={styles}> 404. Did you arrive at the wrong plane?
+            <div style={styles}> 404! DID YOU ARRIVE AT THE WRONG PLANE?
             </div>
             </div>
             

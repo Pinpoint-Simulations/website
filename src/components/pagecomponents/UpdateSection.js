@@ -1,5 +1,5 @@
 import '../styles/updates.css'
-import airplane from '../../imgs/airplaneTopShot.jpg'
+import airplane from '../../imgs/workinprogress.png'
 
 function LatesUpdate({title, description, image}){
     return (
@@ -17,8 +17,8 @@ function UpdateSection(){
             <h1>UPDATES</h1>
             <h2>LATEST UPDATE</h2>
             <LatesUpdate 
-                title="FUSELAGE SNEAK PEEK"
-                description="Here’s the latest look at the rework for our fuselage. Our rework will consist of a revamped fuselage, wings, and rescaling of the marvelous GE90-115B engines, stay tuned!"
+                title="COCKPIT RENDER"
+                description="Here is a render of the cockpit. Keep in mind, this is a work in progress."
                 image={airplane}
             />
             

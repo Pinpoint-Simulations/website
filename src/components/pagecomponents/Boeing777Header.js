@@ -56,7 +56,7 @@ class Boeing777Header extends React.Component{
         <section className="boeingHeader">
             <div>
                 <h1>BOEING <span className="_777">{this.state.text }</span></h1>
-                <p>The world's first ever freeware 777-300ER for Microsoft Flight Simulator</p>
+                <p>The world's first freeware 777-300ER for Microsoft Flight Simulator</p>
             </div>
         </section>
         )

@@ -53,8 +53,10 @@ body{
 .links a{
     text-decoration: none;
     font-family: brandon;
-    color: rgb(145, 129, 129);
+    color: rgb(153, 153, 153);
     font-size: 1rem;
+    transition-timing-function: ease;
+    transition-duration: .8s;
 }
 .links a:hover {
     color: rgb(255, 255, 255);
@@ -64,6 +66,7 @@ body{
 
 .copyright{
     color: white;
+    font-family: futura;
 }
 
 @media screen and (max-width: 600px){
