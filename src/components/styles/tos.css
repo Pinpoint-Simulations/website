@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(202, 198, 198);
+    background-color: rgb(197, 197, 197);
 }
 
 .tos_section{
@@ -15,6 +15,7 @@ body{
     padding-top: 40px;
     padding-bottom: 30px;
     font-size: 50px;
+    font-family: brandon;
 }
 
 .tosparagraphs{
@@ -25,6 +26,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     gap: 30px;
+    font-family: futura;
 }
 
 .tosparagraphs div{
