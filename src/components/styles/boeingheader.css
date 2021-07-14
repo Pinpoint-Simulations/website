@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    
+}
+body{
+    overflow-x: hidden;
+}
+:root{
+    --darkred: #911a20;
+    --lightred: #C2272F;
+}
+
+
+.boeingHeader{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    position: relative;
+    /* top: 70px; */
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../../imgs/panel.png');
+    background-attachment: fixed;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.boeingHeader:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.4);
+}
+.boeingHeader > *{
+    z-index: 1;
+}
+.boeingHeader div{
+    position: relative;
+    bottom: 20px;
+    color: white;
+    margin-left: 10rem;
+
+    
+}
+.boeingHeader div h1{
+    
+    font-size: 6rem;
+    
+    /* font-size: 8vw; */
+    text-shadow: 8px 8px 10px black;
+    font-family: brandon;
+    
+    /* width: 325px; */
+}
+
+    
+.boeingHeader div h1 span{
+    color: var(--lightred);
+    
+    
+}
+
+
+
+.boeingHeader div p{
+    width: 600px;
+    font-family: brandon;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 5px 5px 5px black;
+    margin-top: 25px;
+    font-size: 1.3rem;
+    margin-left: .5rem;
+    font-size: 1.2rem;
+}
+@media screen and (max-width: 800px) {
+    section.boeingHeader div h1{
+        font-size: 5rem;
+        
+        
+    }
+    section.boeingHeader div h1 span{
+        letter-spacing: .25rem;
+    }
+    section.boeingHeader div{
+        
+        margin-left: 2rem;
+        margin-bottom: 1rem;
+  
+    }
+    section.boeingHeader div p{
+        font-size: 1.2rem;
+        width: 90%;
+        margin-left: 2px;
+    }
+    section.boeingHeader{
+        background-attachment: unset;
+    }
+    
+}

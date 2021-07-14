@@ -1,0 +1,59 @@
+
+
+.joindiscord{
+    height: 500px;
+    background-color: rgb(46, 41, 41);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+.joindiscord .box{
+    background-color: rgb(205, 205, 211);
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 700px;
+    }
+
+.joindiscord .box .titletext{
+    text-align: center;
+    font-size: 3.3rem;
+    /* font-size: 4vw; */
+    margin: .5rem;
+    border-bottom: 2px solid rgba(7, 7, 7, .2);
+    font-family: brandon;
+    text-transform: uppercase;
+    
+}   
+.joindiscord .box p{
+    line-height: 1.5rem;
+    font-family: futura;
+    font-family: Inter;
+}
+
+.joindiscord .box .link{
+    font-family: futura;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    text-align: center;
+    margin-top: .5rem;
+
+}
+
+.joindiscord .box .link a{
+    color: rgb(185, 51, 51);
+    text-decoration: none;
+    font-size: 1.2rem;
+    }
+    .joindiscord .box .link a:hover{
+        color: rgb(185, 51, 51);
+        text-decoration: underline;
+        
+    }
+@media  screen and (max-width: 600px) {
+    .joindiscord .box{
+        width: 85vw;
+    }
+    .joindiscord .box .titletext{ font-size: 2.3rem;}
+}

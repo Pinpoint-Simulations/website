@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.719f446d.chunk.css",
+    "main.js": "/static/js/main.9d5bebe0.chunk.js",
+    "main.js.map": "/static/js/main.9d5bebe0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.41a1caf2.js",
+    "runtime-main.js.map": "/static/js/runtime-main.41a1caf2.js.map",
+    "static/js/2.d8980626.chunk.js": "/static/js/2.d8980626.chunk.js",
+    "static/js/2.d8980626.chunk.js.map": "/static/js/2.d8980626.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.719f446d.chunk.css.map": "/static/css/main.719f446d.chunk.css.map",
+    "static/js/2.d8980626.chunk.js.LICENSE.txt": "/static/js/2.d8980626.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/futura.ead7282f.ttf",
+    "static/media/airplaneTopShot.17f5651c.jpg": "/static/media/airplaneTopShot.17f5651c.jpg",
+    "static/media/aboutus.css": "/static/media/airplanefront.5a5a6db3.png",
+    "static/media/pullrequests.css": "/static/media/buttons.2a113cee.png",
+    "static/media/githubheader.css": "/static/media/overhead.3b387841.png",
+    "static/media/boeingheader.css": "/static/media/panel.98eac7aa.png",
+    "static/media/updates.css": "/static/media/simshot.c89b5f54.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.41a1caf2.js",
+    "static/js/2.d8980626.chunk.js",
+    "static/css/main.719f446d.chunk.css",
+    "static/js/main.9d5bebe0.chunk.js"
+  ]
+}

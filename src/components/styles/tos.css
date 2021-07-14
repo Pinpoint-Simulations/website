@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(202, 198, 198);
+}
+
+.tos_section{
+    position: relative;
+    top: 70px;
+    height: 1000px;
+    /* height: 100vh; */
+    /* height: max-content; */
+}
+
+.tostitle{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-size: 50px;
+}
+
+.tosparagraphs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 30px;
+}
+
+.tosparagraphs div{
+    padding: 5px;
+    /* background-color: rgb(97, 79, 79); */
+}
+.tosparagraph{
+    width: 100%;
+}
+.tosname{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+.tosdesc{
+    font-size: 20px;
+    line-height: 2rem;
+    color: rgb(78, 77, 77);
+}
+
+@media screen and (max-width: 600px){
+    .tosdesc{
+        width: 90vw;
+        font-size: 16px;
+    }
+    .tosname{
+        width: 90vw;
+        font-size: 25px;
+    }
+    .tosparagraphs{
+        padding: 15px;
+    }
+    .tos_section{
+        height: max-content;
+        margin-bottom: 200px;
+    }
+    
+}

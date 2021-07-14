@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.updates{
+    position: relative;
+    top: 70px;
+    margin-bottom: 70px;
+    /* height: 850px; */
+    height: 100vh;
+    /* height: 800px; */
+    /* background-color: red; */
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    background-image: url('../../imgs/simshot.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+
+.updates:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%; height: 100%;
+    /* width: max-content;
+    height:max-content; */
+
+    background:rgba(14, 14, 14, 0.4);
+}
+
+.updates > *{
+    z-index: 1;
+}
+
+.updates h1{
+    /* text-align: center;
+    padding: 1rem; */
+    margin-top: 2rem;
+    font-size: 4rem;
+    font-family: brandon;
+    color: white;
+}
+
+.updates h2{
+    display: none; /* LATEST UPDATE */
+    --grey: rgba(255, 249, 249, 0.904);
+    margin: 1rem;
+    font-size: 2rem;
+    color: var(--grey);
+    border-bottom: 2px solid var(--grey);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.latest-update h3{
+    margin: 1rem;
+    font-size: 1.7rem;
+    color: rgb(172, 236, 226);
+    font-family: brandon;
+}
+.latest-update .description{
+    
+    font-size: 1.05rem;
+    color: rgb(218, 233, 238);
+    font-family: futura;
+    padding: .7rem;
+    margin-left: 1.7rem;
+    margin-right: 1rem;
+}
+.updates .latest-update{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    background-color: #C2272F;
+    box-shadow: 5px 5px 8px black;
+    /* border-radius: 1em; */
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    
+    
+}
+.latest-update img{
+    width: 75%;
+    
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(0, 0, 0);
+}
+@media (max-width: 400px) {
+    .updates .latest-update{
+        width: 85vw;
+ 
+    }
+    section.updates{
+        /* height: 100%; */
+        background-attachment: scroll;
+    }
+    .latest-update h3{
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,38 @@
+@font-face {
+    font-family: brandon;
+    src: url('./fonts/Brandon_bld.otf');
+}
+@font-face {
+    font-family: futura;
+    src: url('./fonts/futura.ttf');
+}
+
+/* body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+} */
+
+@media screen and (min-width: 600px){
+    body::-webkit-scrollbar {
+    
+    
+        background-color: rgb(10, 10, 10);
+        width: .8rem;
+      }
+    body::-webkit-scrollbar-thumb {
+        /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);  */
+        
+        
+        /* background-color: var(--darkred) */
+        background-color: rgb(133, 113, 113);
+    }
+    body::-webkit-scrollbar-thumb:hover {
+        /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);  */
+        
+        
+        /* background-color: var(--lightred); */
+        background-color: rgb(175, 159, 159);
+    }
+    
+}

@@ -1,0 +1,59 @@
+body{
+    /* margin: 0; */
+    /* box-sizing: border-box; */
+    background-color: black;
+    
+}
+.downloads{
+    
+    height: 800px;
+    height: 100vh;
+    
+    background-color:rgb(39, 41, 39);
+    
+    
+    
+    
+}
+
+
+
+.downloads h2{
+    
+    font-family: brandon;
+    color: white;
+    
+    
+    font-size: 80px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.downloads p{
+    margin-top: 30px;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-family: futura;
+    font-size: 30px;
+}
+
+.bannerarea{
+    margin-top: 50px;
+    display: block;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 20px 20px 20px black;
+    width: 50vw;
+}
+
+@media screen and (max-width: 600px){
+    .bannerarea{
+        display: none;
+    }
+    section.downloads h2{
+        font-size: 14vw;
+    }
+}
