@@ -3,7 +3,7 @@ import '../styles/footer.css'
 
 function GetLink({fileName}){
     const links = {
-        "discord" : "https://discord.gg/pinpoint",
+        "discord" : "https://discord.gg/MdtbBnVK9Y",
         "youtube" : "https://www.youtube.com/channel/UCLwmhnbgYkvLHCKDCsFkTJw",
         "reddit" : "https://www.reddit.com/user/MegaPackDesigns/",
         "github" : "https://github.com/Pinpoint-Simulations/"
