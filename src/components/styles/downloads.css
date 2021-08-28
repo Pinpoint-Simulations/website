@@ -30,12 +30,12 @@ body{
 }
 
 .downloads p{
-    margin-top: 30px;
+    margin-top: 2px;
     padding-top: 20px;
     text-align: center;
     color: white;
     font-family: futura;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .bannerarea{
@@ -44,8 +44,7 @@ body{
     width: 800px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 10px;
-    box-shadow: 20px 20px 20px black;
+    border-radius: 5px;
     width: 50vw;
 }
 
@@ -57,3 +56,4 @@ body{
         font-size: 14vw;
     }
 }
+

@@ -12,7 +12,7 @@ body{
     justify-content: space-between;
     flex-direction: column;
     background-color: red;
-    background-image: url('../../imgs/overhead.png');
+    background-image: url('../../imgs/nicepicture2.png');
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -23,7 +23,6 @@ body{
     color: white;
     font-family: brandon;
     padding: 1rem;
-    text-shadow: 10px 10px 15px rgb(0, 0, 0);
 }
 .text{
     font-size: 3.4rem;
@@ -51,6 +50,8 @@ body{
     gap: 4.5rem;
     /* width: 300px; */
     /* background-color: grey; */
+    transition-duration: .3s;
+    transition-timing-function: ease;
 }
 .linkbtn{
     background-color:  #C2272F;
@@ -77,6 +78,8 @@ body{
     border-width: 2px;
     border-style: solid;
     /* border-color: #C2272F; */
+    transition-duration: .3s;
+    transition-timing-function: ease;
 }
 
 .header .flexcontainer a{
@@ -105,14 +108,18 @@ body{
     width: 60px;
     margin-left: auto;
     margin-right: auto;
-    animation: moveupdown 2s linear infinite;
+    animation: moveupdown 4.5s linear infinite;
 }
 @keyframes moveupdown {
     0%, 100% {
       transform: translateY(0);
+      transition-duration: .3s;
+      transition-timing-function: ease;
     }
     50% {
       transform: translateY(-20px);
+      transition-duration: .3s;
+      transition-timing-function: ease;
     }
   }
   

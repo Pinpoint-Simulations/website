@@ -8,7 +8,7 @@
     position: relative;
     margin-top: 70px;
     top: 70;
-    background-image: url("../../imgs/buttons.png");
+    background-image: url("../../imgs/nicepicture.png");
     height: 950px;
     background-color: red;
     background-size: cover;
@@ -27,12 +27,12 @@
     margin-top: 70px;
 }
 .pullrequests_steps{
-    margin-top: 30px;
-    width: 600px;
+    margin-top: 90px;
+    width: 800px;
     margin-left: auto;
     margin-right: auto;
     color: white;
-    background-color: rgb(80, 78, 78);
+    background-color: rgb(126, 126, 126);
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -40,7 +40,7 @@
     gap: 25px;
     border-radius: 15px;
     font-family: futura;
-    box-shadow: 4px 4px 10px black;
+    
 }
 
 .pullrequests_steps div{
@@ -49,13 +49,13 @@
 
 .pullrequests_desc_container{
     margin-top: 30px;
-    width: 600px;
+    width: 800px;
     margin-left: auto;
     margin-right: auto;
     background: rgb(37, 37, 37);
     padding:15px;
     border-radius: 15px;
-    box-shadow: 4px 4px 10px black;
+    
 }
 .pullrequest_desc{
     line-height: 1.75rem;

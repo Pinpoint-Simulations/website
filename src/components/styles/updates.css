@@ -19,7 +19,7 @@ body, html{
     display: flex;
     align-items: center;
     /* justify-content: space-between; */
-    background-image: url('../../imgs/simshot.png');
+    background-image: url('../../imgs/sheesh.png');
     background-size: cover;
     background-repeat: no-repeat;
     flex-direction: column;
@@ -45,7 +45,7 @@ body, html{
     /* text-align: center;
     padding: 1rem; */
     margin-top: 2rem;
-    font-size: 4rem;
+    font-size: 6rem;
     font-family: brandon;
     color: white;
 }
@@ -83,11 +83,10 @@ body, html{
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    width: 700px;
+    width: 800px;
     background-color: #C2272F;
-    box-shadow: 5px 5px 8px black;
     /* border-radius: 1em; */
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     margin-bottom: 2rem;
     
     
@@ -96,7 +95,7 @@ body, html{
     width: 100%;
     
     border-style: solid;
-    border-width: 4px;
+    border-width: 0px;
     border-color: rgb(0, 0, 0);
 }
 @media (max-width: 400px) {

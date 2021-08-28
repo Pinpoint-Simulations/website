@@ -32,7 +32,7 @@ class Navbar extends React.Component{
                 
                 <div><a href="/">HOME</a></div>
                 <div><a href="/contributions">CONTRIBUTIONS</a></div>
-                <div><a href="/downloads">DOWNLOADS</a></div>
+                <div><a href="/downloads">INSTALLER</a></div>
                 <div><a href="/updates">UPDATES</a></div>
                 <div><a href="https://pinpointsimulationsform.herokuapp.com/" target="__blank">APPLY</a></div>
 

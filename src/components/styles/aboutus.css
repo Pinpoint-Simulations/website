@@ -13,7 +13,7 @@
     align-items: center;
     flex-direction: column;
     
-    background-image: url('../../imgs/airplanefront.png');
+    background-image: url('../../imgs/epicphoto.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -23,16 +23,15 @@
     font-size: 5rem;
     color: white;
     margin-top: 3rem;
-    text-shadow: 4px 4px 3px black;
     font-family: brandon;
 }
 
 .centering{
    
     margin-top: 2rem;
-    background-color: rgb(7, 1, 1);
+    background-color: rgba(0, 0, 0, 0.479);
     padding: 1rem;
-    width: 600px;
+    width: 1000px;
     border-radius: 10px;
     
 }

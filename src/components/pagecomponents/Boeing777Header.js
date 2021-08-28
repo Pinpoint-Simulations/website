@@ -27,13 +27,13 @@ class Boeing777Header extends React.Component{
         function getNewText(prevText){
             var newText = ""
             if (prevText === ''){
-                newText = '7'
+                newText = '777'
             } else if (prevText === '7'){
-                newText = '77'
+                newText = '777'
             } else if (prevText === '77'){
                 newText = '777'
             } else if (prevText === '777'){
-                newText = '7'
+                newText = '777'
             }
             return newText;
         }
@@ -54,9 +54,13 @@ class Boeing777Header extends React.Component{
     render() {
         return (
         <section className="boeingHeader">
+            
+            
+            
             <div>
                 <h1>BOEING <span className="_777">{this.state.text }</span></h1>
                 <p>The world's first freeware 777-300ER for Microsoft Flight Simulator</p>
+
             </div>
         </section>
         )

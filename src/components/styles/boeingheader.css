@@ -19,7 +19,7 @@ body{
     /* top: 70px; */
     height: 100vh;
     width: 100vw;
-    background-image: url('../../imgs/panel.png');
+    background-image: url('../../imgs/cockpitfull.png');
     background-attachment: fixed;
     font-family: brandon;
 
@@ -35,7 +35,7 @@ body{
     left: 0;
     top: 0;
     width: 100%; height: 100%;
-    background: rgba(0,0,0,0.4);
+    background: rgba(0, 0, 0, 0.486);
 }
 .boeingHeader > *{
     z-index: 1;
@@ -50,10 +50,10 @@ body{
 }
 .boeingHeader div h1{
     
-    font-size: 6rem;
+    font-size: 7rem;
     
     /* font-size: 8vw; */
-    text-shadow: 8px 8px 10px black;
+
     font-family: brandon;
     
     /* width: 325px; */
@@ -69,13 +69,11 @@ body{
 
 
 .boeingHeader div p{
-    width: 600px;
+    width: 800px;
     font-family: futura;
-    text-shadow: 5px 5px 5px black;
-    margin-top: 25px;
-    font-size: 1.3rem;
+    margin-top: 1px;
     margin-left: .5rem;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
 }
 @media screen and (max-width: 800px) {
     section.boeingHeader div h1{
