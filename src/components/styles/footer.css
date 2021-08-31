@@ -15,14 +15,14 @@ body{
    
     
     width: 100%;
-    height: 150px;
+    height: 190px;
     background-color: black;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
     position: relative;
-    bottom: 0;
+    bottom: 0px;
 }
 .socials img{
     display: inline-block;
@@ -31,6 +31,14 @@ body{
 }
 
 .socials{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15px;
+    width: 100px;
+}
+.socials2{
     margin-top: 20px;
     display: flex;
     align-items: center;
@@ -68,7 +76,10 @@ body{
     color: white;
     font-family: futura;
     
+    
 }
+
+
 
 @media screen and (max-width: 600px){
     .links a{
