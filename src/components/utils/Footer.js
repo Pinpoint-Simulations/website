@@ -34,12 +34,16 @@ function Footer(){
                 <a href="/tos">TERMS OF SERVICE</a>
                 <a href="/privacy">PRIVACY POLICY</a>
                 <a href="mailto:admin@pinpointsimulations.net" target="__blank">EMAIL</a>
+                <a href="https://opencollective.com/pinpointsimulations" target="__blank">DONATE</a>
             </div>
             <div className="copyright2">
                 <a href="https://vercel.com/?utm_source=Pinpoint-Simulations&utm_campaign=oss" target="__blank"><img src='/imgs/powered-by-vercel.svg' alt='powered-by-vercel.svg' width='220px'/></a>
             </div>
             <div className="copyright">
                 <footer>©️ Pinpoint Simulations 2021</footer>
+            </div>
+            <div className="space">
+                <footer></footer>
             </div>
         </section>
         
