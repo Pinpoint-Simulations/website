@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+.discontinued { 
+    color: #E82E38;
+ }
+
 
 .aboutusHeader{
     /* position: relative;
@@ -49,7 +53,6 @@
     .heading{
         padding: .5rem;
         font-size: 3.8rem;
-        color: white;
         margin-top: 2rem;
         text-align: center;
         text-shadow: 4px 4px 3px black;

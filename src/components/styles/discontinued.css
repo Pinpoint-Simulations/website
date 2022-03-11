@@ -1,23 +1,17 @@
 
 
-.joindiscord{
-    height: 500px;
-    background-color: rgb(46, 41, 41);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    }
 
-.joindiscord .box{
-    background-color: rgb(205, 205, 211);
+
+.discontinued .box{
+    background-color: rgb(194,39,47);
     border-radius: 1rem;
     padding: 1rem;
     width: 900px;
-    height: 200px;
+    height: 150px;
+    text-align: center;
     }
 
-.joindiscord .box .titletext{
-    text-align: center;
+.discontinued .box .titletext{
     font-size: 3.3rem;
     /* font-size: 4vw; */
     margin: .5rem;
@@ -26,13 +20,13 @@
     text-transform: uppercase;
     
 }   
-.joindiscord .box p{
+.discontinued .box p{
     line-height: 1.5rem;
     font-family: futura;
     
 }
 
-.joindiscord .box .link{
+.discontinued .box .link{
     font-family: futura;
     margin-left: auto;
     margin-right: auto;
@@ -42,7 +36,7 @@
 
 }
 
-.joindiscord .box .link a{
+.discontinued .box .link a{
     color: rgb(185, 51, 51);
     text-decoration: none;
     font-size: 2.2rem;
@@ -50,7 +44,7 @@
     transition-duration: .3s;
     transition-timing-function: ease;
     }
-    .joindiscord .box .link a:hover{
+    .discontinued .box .link a:hover{
         color: rgb(63, 63, 63);
         text-decoration: none;
         transition-duration: .3s;
@@ -58,8 +52,8 @@
         
     }
 @media  screen and (max-width: 600px) {
-    .joindiscord .box{
+    .discontinued .box{
         width: 85vw;
     }
-    .joindiscord .box .titletext{ font-size: 2.3rem;}
+    .discontinued .box .titletext{ font-size: 2.3rem;}
 }

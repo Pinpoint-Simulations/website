@@ -3,7 +3,6 @@ import '../styles/footer.css'
 
 function GetLink({fileName}){
     const links = {
-        "discord" : "https://discord.gg/MdtbBnVK9Y",
         "youtube" : "https://www.youtube.com/channel/UCLwmhnbgYkvLHCKDCsFkTJw",
         "reddit" : "https://www.reddit.com/user/MegaPackDesigns/",
         "github" : "https://github.com/Pinpoint-Simulations/"
@@ -23,7 +22,6 @@ function Footer(){
     return (
         <section id="footer" >
             <div className="socials">
-                <GetLink fileName="discord"/>
                 <GetLink fileName="reddit"/>
                 <GetLink fileName="youtube"/>
                 <GetLink fileName="github"/>
@@ -34,13 +32,12 @@ function Footer(){
                 <a href="/tos">TERMS OF SERVICE</a>
                 <a href="/privacy">PRIVACY POLICY</a>
                 <a href="mailto:admin@pinpointsimulations.net" target="__blank">EMAIL</a>
-                <a href="https://opencollective.com/pinpointsimulations" target="__blank">DONATE</a>
             </div>
             <div className="copyright2">
                 <a href="https://vercel.com/?utm_source=Pinpoint-Simulations&utm_campaign=oss" target="__blank"><img src='/imgs/powered-by-vercel.svg' alt='powered-by-vercel.svg' width='220px'/></a>
             </div>
             <div className="copyright">
-                <footer>©️ Pinpoint Simulations 2021</footer>
+                <footer>©️ Pinpoint Simulations 2022</footer>
             </div>
             <div className="space">
                 <footer></footer>
