@@ -1,21 +1,6 @@
 import '../styles/boeingheader.css'
 import '../styles/discontinued.css'
 import React from 'react'
-// function Boeing777Header(){
-    
-//     return (
-//         <section className="boeingHeader">
-//             <div>
-//                 <h1>BOEING <span className="_777">777</span></h1>
-//                 <p>THE WORLDS FIRST FREEWARE 777-300ER FOR MICROSOFT FLIGHT SIMULATOR</p>
-//             </div>
-//         </section>
-        
-//     )
-    
-    
-    
-// }
 
 class Boeing777Header extends React.Component{
     constructor(){
@@ -65,7 +50,6 @@ class Boeing777Header extends React.Component{
             
             <div>
                 <h1>BOEING <span className="_777">{this.state.text }</span></h1>
-                <p>The world's first freeware 777-300ER for Microsoft Flight Simulator</p>
 
             </div>
         </section>
