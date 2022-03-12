@@ -22,14 +22,12 @@ function Footer(){
     return (
         <section id="footer" >
             <div className="socials">
-                <GetLink fileName="reddit"/>
                 <GetLink fileName="youtube"/>
                 <GetLink fileName="github"/>
                 
             </div>
             <div className="links">
                 <a href="https://github.com/Pinpoint-Simulations/website" target="__blank">SOURCE CODE</a>
-                <a href="/tos">TERMS OF SERVICE</a>
                 <a href="/privacy">PRIVACY POLICY</a>
                 <a href="mailto:admin@pinpointsimulations.net" target="__blank">EMAIL</a>
             </div>
