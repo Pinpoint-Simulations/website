@@ -9,7 +9,7 @@ class Boeing777Header extends React.Component{
             <section className="discontinued">
             <div className="box">
                 <h3 className="titletext">DISCONTINUED</h3>
-                <p className="desc">We are sad to announce that our project has been discontinued</p>            
+                <p className="desc">Effective Feb 5th, 2022, the project was discontinued and no further plans have been revised to re-open.</p>            
             </div>
         </section>
             
