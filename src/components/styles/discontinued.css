@@ -1,0 +1,31 @@
+
+.discontinued .box{
+    background-color: rgb(194,39,47);
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 800px;
+    height: 150px;
+    text-align: center;
+    }
+
+.discontinued .box .titletext{
+    font-size: 3.3rem;
+    /* font-size: 4vw; */
+    margin: .5rem;
+    border-bottom: 2px solid rgba(7, 7, 7, .2);
+    font-family: brandon;
+    text-transform: uppercase;
+    
+}   
+.discontinued .box p{
+    line-height: 1.5rem;
+    font-family: futura;
+    
+}
+
+@media  screen and (max-width: 600px) {
+    .discontinued .box{
+        width: 85vw;
+    }
+    .discontinued .box .titletext{ font-size: 2.3rem;}
+}
